@@ -1,0 +1,97 @@
+/*
+Original design: Basic Profile (v2.0 - Sep 11, 2012) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-profile/
+*/
+
+html { zoom: 0.70; -moz-transform: scale(0.70); -moz-transform-origin: 0 0}
+
+*{margin:20; padding:0;}
+/*body {background:#fff url(background.jpg) top center no-repeat; color:#303030; font:84% Arial,Helvetica,sans-serif; line-height:1.6em;}*/
+
+
+body
+{
+  font-family: open-sans-condensed;
+  font-size: 15pt;
+  color: #404040;
+}
+
+.subtitle_text
+{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-family: league-gothic;
+    font-weight: 700;
+    font-size: 36pt;
+    color: #000000;
+}
+
+.heading_text
+{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-family: league-gothic;
+    font-weight: 700;
+    font-size: 24pt;
+    color: #000000;
+}
+
+
+.title_text
+{
+    font-family: league-gothic;
+    font-weight: 700;
+    font-size: 62pt;
+    line-height: 54pt;
+    color: #000000;
+}
+
+.emph
+{
+  color: #c02020;
+}
+
+body a
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+body a:hover
+{
+    color: #808080;
+    text-decoration: underline;
+}
+
+.author_del_mundo {
+	text-decoration:underline;	
+}
+
+a:link {color: #0000ff; text-decoration: underline; }
+a:active {color: #000000; text-decoration: underline; }
+a:visited {color: #008000; text-decoration: underline; }
+a:hover {color: #ff0000; text-decoration: none; }
+
+
+/*a {color:#404040; text-decoration:none;}*/
+a:hover {text-decoration:underline;}
+p,ul,ol,dl {margin:0 0 30px 0;}
+h1 {color:#888; font-size:3.2em; line-height:1.1em; letter-spacing:-3px; margin:20px 0 0 0;}
+h1 a {color:#239a23; text-transform:none;}
+h2 {font-size:2.2em; color:#333; margin:0 0 20px; letter-spacing:-1px; border-bottom:2px solid #eee;}
+h3 {font-size:1.8em; margin:10px 0 15px 0; letter-spacing:-1px; border-bottom:2px solid #eee;}
+h1,h2,h3 {font-weight:700; line-height:1.4em;}
+#wrap {color:#303030; margin:40px auto; padding:0; width:980px;}
+#content {text-align:left; width:800px; padding-right:40px;}
+#sidebar {float:right; width:340px; padding-left:20px; border-left:2px solid #ccc; }
+#sidebar ul {list-style:none; margin:0; padding:10px 0 0 0; border-top:1px solid #eee;}
+#sidebar li {list-style:none; font-size:1.2em; margin:0 0 10px; padding:0 0 10px 0; color:#888; border-bottom:1px solid #eee;}
+#sidebar li a {font-size:1.2em;}
+#sidebar h2 {font-size: 1.4em;}
+.slogan {color:#888; font-size:1.4em; font-weight:700; margin:0 0 20px 0; letter-spacing:-1px;}
+.readmore {text-align:right; margin:0 20px 30px 0;}
+.timestamp {display:block; font-weight:700; color:#888; text-align:right; width:150px; padding:20px 20px 20px 0; float:left; margin:0 20px 20px 0; border-right:2px solid #eee;}
+.timestamp a {font-weight:normal;}
+.credits {display:block; clear:left; font-size:0.9em; color:#aaa; margin:20px 0;}
+.credits a {color:#888;}
+.clear {clear:both;}
