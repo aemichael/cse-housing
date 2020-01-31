@@ -1,0 +1,32 @@
+#figures {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#figures figure {
+  max-width: 375px;
+}
+
+#figures img {
+  /* max-height: 300px; */
+  max-width: 375px;
+}
+
+figcaption {
+  font-size: 9pt;
+}
+
+#neighborhoods {
+  max-width: 390px;
+  float: right;
+  padding: 15px;
+}
+
+/* #neighborhoods-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
