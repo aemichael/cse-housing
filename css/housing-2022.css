@@ -1,0 +1,36 @@
+#figures {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#figures figure {
+  max-width: 375px;
+}
+
+#figures img {
+  max-width: 375px;
+}
+
+figcaption {
+  font-size: 9pt;
+}
+
+#neighborhoods {
+  max-width: 600px;
+  margin: 20px;
+}
+@media screen and (max-width: 767px) {
+  #neighborhoods {
+    max-width: 100%;
+    margin: 20px;
+  }
+}
+
+/* #neighborhoods-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
