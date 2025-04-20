@@ -16,7 +16,10 @@ figcaption {
     font-size: medium;
 }
 
-a:link {text-decoration: underline}
+a:link {
+  text-decoration: underline;
+  color: #317ab9;
+}
 
 h1, .h1,
 h2, .h2,
